@@ -2,17 +2,17 @@ package fr.iutvalence.info.dut.m3105.preamble;
 
 public class Circle implements Shape
 {
-	private int rayon;
+	private int radius;
 
 	public Circle(int rayon)
 	{
-		this.rayon=rayon;
+		this.radius=rayon;
 	}
 	
 	@Override
 	public void draw(Position pos) 
 	{
-		System.out.println("Circle at the position : "+ pos +" and of radius : "+ this.rayon );				
+		System.out.println("Circle at the position : ("+ pos.getX() +","+pos.getY()+") and of radius : "+ this.radius );				
 	}
 	
 }

@@ -12,7 +12,7 @@ public class Rectangle implements Shape
 	@Override
 	public void draw(Position pos)
 	{
-		System.out.println("Recangle the position "+ pos+ " width : "+ this.width+" height : "+this.width);
+		System.out.println("Rectangle the position "+ pos+ " width : "+ this.width+" height : "+this.width);
 		
 	}
 
